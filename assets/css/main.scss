@@ -19,7 +19,7 @@ hr {
 	border-top: 1px solid #ddd;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Verdana';
+	font-family: 'Helvetica';
 }
 h1 {
 	margin-bottom: 5px;
@@ -35,7 +35,7 @@ a {
 		color: $color-link;
 	}
 	&:hover {
-		text-decoration: none;
+		text-decoration: underline;
 	}
 	&:active {
 		color: $color-link;
@@ -45,7 +45,7 @@ small {
 	font-size: 85%;
 }
 pre, code {
-	font-family: 'Verdana';
+	font-family: 'Helvetica';
 }
 .center {
 	text-align: center;
@@ -76,9 +76,32 @@ blockquote {
 	}
 }
 
+
 .header {
 	position: fixed;
-	width: 280px;
+	margin-left: $header-left;
+	width: 600px;
+	align-items: baseline;
+	min-height: $header-height;
+
+	@media (max-width: 900px) {
+		position: relative;
+		margin-left: auto;
+		width: auto;
+		margin-bottom: 2rem;
+		border-bottom: 1px solid #ddd;
+		text-align: center
+	}
+
+	a {
+		color: $header-link;
+	}
+}
+
+
+.sidebar {
+	position: fixed;
+	width: $sidebar-width;
 	align-items: baseline;
 
 	@media (max-width: 900px) {
@@ -87,7 +110,7 @@ blockquote {
 		margin-bottom: 2rem;
 		padding-bottom: 2rem;
 		border-bottom: 1px solid #ddd;
-		margin-left: auto;
+		text-align: center;
 	}
 
 	img {
@@ -96,12 +119,18 @@ blockquote {
 		margin-right: 14px;
 		float: left;
 	}
+
+	a {
+		color: $sidebar-link;
+	}
+
 	h1 {
 		font-size: 2em;
 		margin: 9px 0 20px;
 
 		a {
 			color: inherit;
+			text-decoration: none;
 		}
 	}
 	.bio {
@@ -110,26 +139,56 @@ blockquote {
 	}
 }
 
-.blog,
-.post {
-	margin-left: 320px;
+.page, .projects, .blog, .post {
+	margin-left: $header-left;
+	margin-top: $header-height + 20px;
 	max-width: 600px;
 
 	@media (max-width: 900px) {
 		margin: 0;
+		max-width: 900px;
+	}
+}
+
+.projects {
+	&__title {
+		font-size: 1.6em;
+		font-weight: 700;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		// border-bottom: 1px solid $color-grey;
+
+		@media (max-width: 900px) {
+			text-align: center;
+		}
+	}
+	&__content {
+		margin-top: 20px;
+		h1 {
+			font-size: 1.2em;
+			font-style: italic;
+			margin-top: 30px;
+			margin-bottom: 5px;
+		}
+		p {
+			font-size: 1em;
+			line-height: 1.4;
+			margin-bottom: 10px;
+		}
 	}
 }
 
 .blog {
 	padding-bottom: 30px;
+	
 	h1 {
 		font-size: 1.6em;
 		font-weight: 700;
 		padding-right: 10px;
-		padding-bottom: 2px;
+		padding-bottom: 1em;
 		text-decoration: none;
-		border-bottom: 3px solid $color-black;
 	}
+
 	.date {
 		font-family: 'Verdana';
 		font-size: 12px;

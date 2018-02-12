@@ -1,3 +1,5 @@
+# site heavily inspired by https://pfrazee.github.io
+
 # Blog settings
 permalink: /blog/:title
 show_drafts: true
