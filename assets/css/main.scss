@@ -9,7 +9,7 @@
 body {
 	color: $color-black;
 	background: #fff;
-	font-family: system-ui, BlinkMacSystemFont, ‘Helvetica Neue’, Helvetica, sans-serif;
+	font-family: $font-family;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -19,7 +19,7 @@ hr {
 	border-top: 1px solid #ddd;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica';
+	font-family: $font-family;
 }
 h1 {
 	margin-bottom: 5px;
@@ -45,7 +45,7 @@ small {
 	font-size: 85%;
 }
 pre, code {
-	font-family: 'Helvetica';
+	font-family: $font-family-code;
 }
 .center {
 	text-align: center;
@@ -82,19 +82,20 @@ blockquote {
 .header {
 	position: fixed;
 	margin-left: $header-left;
+	height: $header-height;
 	width: 600px;
 	top: 0;
 	padding-top: 30px;
-	// align-items: baseline;
-	height: $header-height;
+	border-bottom: 1px solid #eee;
 	background-color: rgba(255,255,255,1);
 
 	@media (max-width: 900px) {
 		position: relative;
+		padding-top: 0px;
 		margin-left: auto;
 		width: auto;
 		margin-bottom: 2rem;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 0px;
 		text-align: center
 	}
 
@@ -107,7 +108,6 @@ blockquote {
 .sidebar {
 	position: fixed;
 	width: $sidebar-width;
-	align-items: baseline;
 
 	@media (max-width: 900px) {
 		position: relative;
@@ -138,9 +138,14 @@ blockquote {
 			text-decoration: none;
 		}
 	}
+
 	.bio {
 		margin: 0.5rem 0;
 		color: #777;
+	}
+
+	code {
+		font-size: 0.8em;
 	}
 }
 
@@ -182,6 +187,10 @@ blockquote {
 			font-size: 1em;
 			line-height: 1.4;
 			margin-bottom: 10px;
+		}
+
+		em {
+			font-style: italic;
 		}
 	}
 }
