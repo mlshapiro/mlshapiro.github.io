@@ -7,7 +7,7 @@ title: Professional
 
 [![](/assets/img/tabsint.png)](https://wz.crearecomputing.com)
 
-TabSINT is an open source platform for administering tablet based hearing-related exams, as well as general-purpose questionnaires. It is meant to be flexible, easy-to-use, and useful for administrators who manage studies of all sizes.
+TabSINT is an open source platform for administering tablet based hearing-related tests and general-purpose questionnaires. It is meant to be flexible, easy-to-use, and useful for administrators who manage studies of all sizes.
 
 To date, TabSINT has collected over 16,000+ test results from all hearing studies all over the world. See the[TabSINT Website](https://tabsint.org) or our [Internet & Audiology Presentation](http://creare-com.gitlab.io/tabsint/docs/references/2017-Internet-Audiology/index.html#/step-1) to learn more.
 
@@ -23,7 +23,7 @@ Hear Well is a set of mobile applications for auditory training and tinnitus man
 
 # [Weather/Marine Citizen](https://wz.crearecomputing.com/map/index.html)
 
-[![](/assets/img/weather-citizen.png)](https://wz.crearecomputing.com/map/index.html)
+[![](/assets/img/wz.png)](https://wz.crearecomputing.com/map/index.html)
 
 > In Development 
 

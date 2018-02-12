@@ -6,14 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    {% if page.title %}
-        <title>{{ page.title }}</title>
-    {% else %}
-        <title>{{ site.name }}</title>
-    {% endif %}
+    <title>{{ site.name }}</title>
 
     <meta name="description" content="{{ site.description }}">
-
+    
     <!-- open sans font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -26,7 +22,11 @@
     <div class="wrapper">
         <div class="sidebar">
             <h1><a href="/">{{ site.name }}</a></h1>
-            <p class="bio"> Etna, NH </p>
+            
+            <p class="bio"> Engineer &middot; Scientist <br> 
+                            Etna, NH 
+            </p>
+
             <code>
                 <a href="pub@tengr.net">email</a> | 
                 <!-- <a href="mls.tengr.net">mls.tengr.net</a> | -->
