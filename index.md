@@ -3,6 +3,12 @@ layout: projects
 title: Professional
 ---
 
+> Most of my professional work to this point has been private. Below are a few examples of projects out in the open. 
+
+# Software
+
+<hr> 
+
 # [TabSINT](https://tabsint.org)
 
 [![](/assets/img/tabsint.png)](https://wz.crearecomputing.com)
@@ -27,8 +33,17 @@ Hear Well is a set of mobile applications for auditory training and tinnitus man
 
 > In Development 
 
-
 Weather Citizen is a framework for crowd-sourcing weather and environmental conditions using built-in smartphone sensors and external bluetooth devices. The system allows users to enter data manually, or automatically collect phone sensor data in the background. The system integrates with external bluetooth sensors to extend the capability of the device. 
 
 In this project, we developed a back end data store based on the open standard GeoJSON format. In addition to crowd sourced data, we harvest data from publicly available sources for comparison and model improvement. To visualize the data, we developed a web map interface using [Leaflet](https://leafletjs.com).  The system is currently still in development.
 
+# Fluid Dynamics
+
+<hr>
+
+# [Phase Transitions in Biomimetic Membranes](assets/docs/thesis.pdf)
+
+<img src="assets/img/vesicles.png" style="width: 300px" />
+
+Masters Thesis from the Vlahovska Lab at Brown University <br>
+["Tension Induced Phase Transitions in Biomimetic Membranes"](assets/docs/thesis.pdf)

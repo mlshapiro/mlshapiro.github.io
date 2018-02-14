@@ -8,7 +8,7 @@
 
 body {
 	color: $color-black;
-	background: #fff;
+	background: $color-bg;
 	font-family: $font-family;
 	font-weight: 400;
 	font-size: 16px;
@@ -87,7 +87,7 @@ blockquote {
 	top: 0;
 	padding-top: 30px;
 	border-bottom: 1px solid #eee;
-	background-color: rgba(255,255,255,1);
+	background: $color-bg;
 
 	@media (max-width: 900px) {
 		position: relative;
@@ -106,6 +106,7 @@ blockquote {
 
 
 .sidebar {
+
 	position: fixed;
 	width: $sidebar-width;
 
@@ -175,7 +176,7 @@ blockquote {
 	&__content {
 		margin-top: 20px;
 		img {
-			max-width: 100px;
+			width: 100px;
 		}
 		h1 {
 			font-size: 1.2em;
