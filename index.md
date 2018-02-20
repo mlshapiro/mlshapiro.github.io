@@ -3,7 +3,7 @@ layout: projects
 title: Professional
 ---
 
-> Most of my professional work to this point has been private. Below are a few examples of projects out in the open. 
+> Much of my professional work to this point has been private. Below are a few examples of projects out in the open. 
 
 # Software
 
@@ -15,7 +15,7 @@ title: Professional
 
 TabSINT is an open source platform for administering tablet based hearing-related tests and general-purpose questionnaires. It is meant to be flexible, easy-to-use, and useful for administrators who manage studies of all sizes.
 
-To date, TabSINT has collected over 16,000+ test results from all hearing studies all over the world. See the[TabSINT Website](https://tabsint.org) or our [Internet & Audiology Presentation](http://creare-com.gitlab.io/tabsint/docs/references/2017-Internet-Audiology/index.html#/step-1) to learn more.
+To date, TabSINT has collected over 16,000+ test results from all hearing studies all over the world. See the[TabSINT Website](https://tabsint.org) and our [Internet & Audiology Presentation](http://creare-com.gitlab.io/tabsint/docs/references/2017-Internet-Audiology/index.html#/step-1) to learn more.
 
 <hr>
 
@@ -35,7 +35,7 @@ Hear Well is a set of mobile applications for auditory training and tinnitus man
 
 Weather Citizen is a framework for crowd-sourcing weather and environmental conditions using built-in smartphone sensors and external bluetooth devices. The system allows users to enter data manually, or automatically collect phone sensor data in the background. The system integrates with external bluetooth sensors to extend the capability of the device. 
 
-In this project, we developed a back end data store based on the open standard GeoJSON format. In addition to crowd sourced data, we harvest data from publicly available sources for comparison and model improvement. To visualize the data, we developed a web map interface using [Leaflet](https://leafletjs.com).  The system is currently still in development.
+In this project, we developed a back end data store based on the open standard [GeoJSON](http://geojson.org) format. In addition to crowd sourced data, we harvest data from publicly available sources for comparison and model improvement. To visualize the data, we developed a web map interface using [Leaflet](https://leafletjs.com).  The system is currently still in development.
 
 # Fluid Dynamics
 
